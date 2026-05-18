@@ -1,4 +1,4 @@
-package List;
+package list;
 
 import java.util.ArrayList;
 
@@ -7,7 +7,7 @@ public class CarrinhoDeCompras {
     private ArrayList<Item> carrinho; // atributo da classe
 
     public CarrinhoDeCompras(){
-        carrinho = new ArrayList<>(); // inicializa no construtor
+        this.carrinho = new ArrayList<>(); // inicializa no construtor
     }
 
     public void adicionarItem(String nome, double preco, int quantidade) {

@@ -1,4 +1,4 @@
-package list;
+package list.basicoslist;
 
 public class Item {
     private String nome;
